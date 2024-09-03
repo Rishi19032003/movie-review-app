@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #131720;
+    font-family: sans-serif;
+    color: white;
+}
+h3{
+    color: white;
+}
+.topnav{
+    overflow: hidden;
+    background-color: #131720;
+    padding: 10px;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.topnav .search-container{
+    float: right;
+}
+form{
+    background-color: #151f30;
+    width: 300px;
+    height: 43px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+}
+input{
+    
+    font: 15px system-ui;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+}
+.thumbnail{
+    height: 350px;
+    width: 100%;
+    border-radius: 19px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    gap: 10px; /* Adjust the gap between columns */
+    align-items: stretch; /* Ensure all columns stretch to the same height */
+}
+.column {
+    flex: 1; /* Adjust the width of each column */
+    min-width: 300px; /* Minimum width for each column */
+    padding: 10px;
+    display: flex;
+}
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #151f30;
+    max-width: 400px;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
